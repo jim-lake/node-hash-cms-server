@@ -1,0 +1,30 @@
+{
+  "name": "node-hash-cms-server",
+  "version": "0.1.0",
+  "description": "Configuration sets for node.js programs.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jim-lake/node-hash-cms-server.git"
+  },
+  "author": {
+    "name": "Jim Lake"
+  },
+  "license": "MIT",
+  "main": "./lib",
+  "engines" : {
+    "node" : ">=4.8.4"
+  },
+  "scripts": {
+    "start": "node --harmony example/app.js"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "lodash": "^3.10.1",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "express": "4.x",
+    "morgan": "*",
+    "cookie-parser": "*"
+  }
+}
